@@ -1,4 +1,129 @@
 
-body{
-    background-color: brown;
+*{
+    margin: 0;
+    padding:O;
+    box-sizing: border-box;
+}
+/* share style */
+
+. font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.logo {
+    font-size: 45px;
+    font width:900;
+}
+.color-orange{
+    color: #fd6e0a;
+}
+
+.btn{
+    background-color: rgb(70, 145, 101, 1);
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight:bold;
+    color: white;
+    
+}
+
+.btn2{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight:bold;
+    color: white;
+
+     
+}
+/* main style */
+header{
+    background-color: #fcd9c1
+    padding top: 50px;
+}
+nav {
+    width: 71%;
+    max-width: 1140px;
+    margin:0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 51px;
+    align-items: center;
+}
+nav .menu a {
+    font-size: 20px;
+    color: #030202;
+    text-decoration: none;
+}
+.bacground {
+    background-image: url(./assets/hero-bg.png);
+    width: 1400px;
+    height: 448;
+    align-items: center;
+}
+
+#banner-image{
+    background-image:url(./assets/hero-bg.png);
+    width: 100%;
+    max-width: 1450px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#banner-image .Banner-Tittle{
+    background-color: white;
+    color: green;
+    width: 230px;
+    padding: 8px 10px;
+    margin-bottom: 16px;
+    border-radius: 40px;
+    
+
+}
+.header1{
+font-size: 72px;
+width: bold;
+line-height: 84px;
+color: white;
+}
+.header2{
+font-size: 72px;
+width: bold;
+line-height: 84px;
+color: green;
+margin-bottom: 16px;
+}
+.style{
+    font-size: 16px;
+    color: white;
+    margin: 16px;
+                
+}
+.header3{
+    font: size 30px;
+    width: 1360px;
+    height: 134px;
+    color: black;
+    margin: 40px ;
+    padding: 0px;
+
+}
+.header4{
+    font-size: ;
 }
